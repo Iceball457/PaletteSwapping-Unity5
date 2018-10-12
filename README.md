@@ -23,7 +23,7 @@ PaletteSwapping
 
  ![](http://i.imgur.com/QPUXavB.jpg)
 
-4.	Create your gameobject out of your sprite
+4.	Create your gameobject out of your sprite. To use the texture changer, use a gameObject with a meshRenderer. The texture changer will change the mainTexture property (On Unity's standard shader this is the albedo).
 
 5.	Add the Palette Changer Script (PaletteSwapping/Scrips/PaletteChager.cs) to your gameobject
 
